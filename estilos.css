@@ -1,0 +1,101 @@
+body {
+	font-family: Karla, sans-serif;
+	float: center;
+}
+
+
+* {
+	margin: 10;
+	padding: 5px 5px 40px 0px;
+
+}
+h1 {
+	font-family: Wellfleet, sans-serif;
+	color: red;
+
+}
+h2 {
+	font-family: Wellfleet, sans-serif;
+	color: blue;
+	text-align:center;
+
+}
+#contenedor {
+margin: 0px auto;
+width:90%;
+min-height:700px;
+border: 1px;
+overflow-x:auto;
+
+	
+
+}
+header {
+	margin: 0px auto;
+	width:100%;
+	border: 1px;
+	overflow-x:auto;
+
+}
+
+#columna_izq {
+	border: 1px solid #ccc;
+	background: #c6f422;
+	color:#333;
+	float:left;
+	height:100%;
+	margin: 0px 10px 5px 0px;
+	width:100%;
+}
+#columna_der {
+	border: 1px solid #ccc;
+	background: #c4f532;
+	color:#333;
+	float: right;
+	height:450px;
+	margin: 5px 0px 5px 0px;
+	width: 33%;
+	
+}
+#bot_colizq {
+	border: 1px solid #ccc;
+	background: #c4f100;
+	color:#333;
+	float: center;
+	height:450px;
+	margin: 5px 0px 5px 0px;
+	width::33%;
+	
+}
+.input_box {
+	width: 150px;
+	height: 0.5em;
+	background: red;
+	box-shadow: inset 0 1px 6px #000000;
+	-webkit-box-shadow: inset 0 1px 6px #000000;
+	border:0px solid #505050;
+    font-family: Karla, sans-serif;
+    font-size: 2.0em;
+    padding: 20px 5px 40px 0px;
+    color: white;
+}
+.dropbox {
+	width: 300px;
+	background: #f6f6f6;
+	box-shadow: inset 0 1px 6px #000000;
+	-webkit-box-shadow: inset 0 1px 6px #000000;
+	border:5px solid #505050;
+    font-family: Karla, sans-serif;
+    font-size: 1.5em;
+    text-shadow: #6374AB 0px 2px 2px;
+    padding: 20px 5px 40px 0px;
+    color: #000000;
+
+
+}
+footer {
+	width: 100%;
+	background: #c0c0c0;
+
+	}
+
